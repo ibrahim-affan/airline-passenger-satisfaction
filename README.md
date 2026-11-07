@@ -32,7 +32,7 @@ The project uses the original Kaggle dataset, consisting of two CSV files:
 | File | Number of Records | Number of Columns | Purpose |
 |---|---:|---:|---|
 | `train.csv` | 103,904 | 25 | Model training and validation |
-| `test.csv` | 25,976 | 25 | Model testing |
+| `test.csv` | 25,976 | 25 | final model evaluation |
 
 **Target Variable:** `satisfaction`
 
