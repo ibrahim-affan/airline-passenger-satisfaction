@@ -27,21 +27,29 @@ The objective of this project is to develop a machine learning classification mo
 
 **Dataset Contributor:** teejmahal20
 
-**Current Repository Dataset:** `dataset.csv`
+The project uses the original Kaggle dataset, consisting of two CSV files:
 
-The current file contains data copied from Kaggle's `test.csv`.
+| File | Number of Records | Number of Columns | Purpose |
+|---|---:|---:|---|
+| `train.csv` | 103,904 | 25 | Model training and validation |
+| `test.csv` | 25,976 | 25 | Model testing |
 
-Dataset details:
+**Target Variable:** `satisfaction`
 
-- Number of records: 25,976
-- Number of columns: 25
-- Target variable: `satisfaction`
-- Missing values: 83
-- Duplicate rows: 0
+The target variable contains two classes:
+- `satisfied`
+- `neutral or dissatisfied`
 
-The dataset includes passenger demographics, travel information, flight details, and ratings of various airline services.
+The dataset includes:
+- Passenger demographics
+- Customer type and travel class
+- Flight distance and delays
+- In-flight service ratings
+- Passenger satisfaction labels
 
-**Note:** The original Kaggle dataset also provides a separate `train.csv`. The team will finalize and document the training and evaluation strategy based on the data actually used.
+The `test.csv` file contains 83 missing values, located in `Arrival Delay in Minutes`. It has no duplicate rows.
+
+The training and testing datasets will be kept separate for model development and evaluation.
 
 ## 4. Project Objectives
 
