@@ -6,7 +6,7 @@ A machine learning project that aims to predict airline passenger satisfaction b
 
 | Name | GitHub Username | Role |
 |---|---|---|
-| Ibrahim Affan | ibrahim-affan | Documentation Lead |
+| Syed Ibrahim Affan | ibrahim-affan | Documentation Lead |
 | Naitik | naitik83 | Video Lead |
 | Gunjan | gunjan-iitrpr | PPT Lead |
 | Anubhab Chakraborthy | anubhab-chakraborthy-26-1324 | Execution Lead |
