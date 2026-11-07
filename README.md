@@ -92,12 +92,13 @@ Expected tools may include:
 ```text
 airline-passenger-satisfaction/
 │
-├── dataset.csv
 ├── .gitattributes
-└── README.md
+├── README.md
+├── train.csv
+└── test.csv
 ```
 
-Additional folders and files for source code, notebooks, results, and presentation materials will be added as the project develops.
+Additional files for Python source code, notebooks, dependencies, results, presentation, and demonstration video will be added as the project develops.
 
 ## 8. Installation and Execution
 
