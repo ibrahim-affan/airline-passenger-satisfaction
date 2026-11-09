@@ -107,9 +107,29 @@ Additional files for Python source code, notebooks, dependencies, results, prese
 
 ## 8. Installation and Execution
 
-The exact Python version, dependencies, installation commands, and execution instructions will be added after the Execution Lead finalizes the implementation.
+### Prerequisites
+- Python 3.13.14
+- Git
+- pip (Python package manager)
 
-A `requirements.txt` file will list the required Python libraries and their versions.
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/ibrahim-affan/airline-passenger-satisfaction.git
+cd airline-passenger-satisfaction
+```
+
+### Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Project
+
+Run the project using the appropriate Python script or Jupyter notebook provided in the repository.
+
+**Note:** The exact execution command will be added after finalizing the project code.
 
 ## 9. Model Evaluation and Results
 
