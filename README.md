@@ -76,17 +76,22 @@ The planned project workflow is:
 
 ## 6. Technologies Used
 
-The technologies and libraries will be documented according to the final implementation.
+The project uses Python and the following libraries and tools:
 
-Expected tools may include:
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
+| Technology | Version | Purpose |
+|---|---:|---|
+| Python | 3.13.14 | Main programming language |
+| Pandas | 3.0.6 | Data handling and manipulation |
+| NumPy | 2.5.2 | Numerical computations |
+| Scikit-learn | 1.9.1 | Machine learning models and evaluation |
+| Matplotlib | 3.11.2 | Data visualization |
+| Seaborn | 0.13.2 | Statistical data visualization |
+| Joblib | 1.6.0 | Model serialization |
+| IPython | 9.16.1 | Interactive Python environment |
+| ipykernel | 7.3.0 | Jupyter notebook kernel |
+| Jupyter Client | 8.9.1 | Jupyter notebook communication |
+| Jupyter Core | 5.9.1 | Jupyter functionality |
+| Traitlets | 5.16.1 | Configuration support |
 ## 7. Current Project Structure
 
 ```text
