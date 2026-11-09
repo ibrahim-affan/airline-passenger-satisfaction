@@ -113,7 +113,10 @@ A `requirements.txt` file will list the required Python libraries and their vers
 
 ## 9. Model Evaluation and Results
 
-The machine learning model was evaluated using the following performance metrics:
+### Model Used
+**Logistic Regression** was used as the machine learning classification algorithm to predict airline passenger satisfaction.
+
+### Performance Metrics
 
 | Evaluation Metric | Score |
 |---|---:|
@@ -124,12 +127,14 @@ The machine learning model was evaluated using the following performance metrics
 
 ### Results Summary
 
-- **Accuracy (87.16%):** The model correctly predicts passenger satisfaction for approximately 87.16% of evaluated samples.
-- **Precision (0.87):** 87% of the passengers predicted as satisfied were correctly classified as satisfied.
-- **Recall (0.83):** The model identifies 83% of the passengers who are actually satisfied.
-- **F1-Score (0.85):** Indicates a balance between precision and recall.
+- **Accuracy (87.16%):** The model correctly classified 87.16% of the evaluated samples.
+- **Precision (0.87):** Measures the proportion of positive predictions that were correct.
+- **Recall (0.83):** Measures the proportion of actual positive cases correctly identified.
+- **F1-Score (0.85):** Represents the harmonic mean of precision and recall.
 
-These results indicate that the model achieves good predictive performance in classifying airline passenger satisfaction.
+### Conclusion
+
+The Logistic Regression model achieved an accuracy of 87.16%, demonstrating good performance in predicting airline passenger satisfaction.
 
 
 ## 10. Presentation and Demonstration
