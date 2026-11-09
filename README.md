@@ -113,15 +113,24 @@ A `requirements.txt` file will list the required Python libraries and their vers
 
 ## 9. Model Evaluation and Results
 
-The model will be evaluated using suitable classification metrics, such as:
+The machine learning model was evaluated using the following performance metrics:
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
+| Evaluation Metric | Score |
+|---|---:|
+| Accuracy | 87.16% |
+| Precision | 0.87 |
+| Recall | 0.83 |
+| F1-Score | 0.85 |
 
-Actual evaluation results, graphs, and screenshots will be added after model implementation.
+### Results Summary
+
+- **Accuracy (87.16%):** The model correctly predicts passenger satisfaction for approximately 87.16% of evaluated samples.
+- **Precision (0.87):** 87% of the passengers predicted as satisfied were correctly classified as satisfied.
+- **Recall (0.83):** The model identifies 83% of the passengers who are actually satisfied.
+- **F1-Score (0.85):** Indicates a balance between precision and recall.
+
+These results indicate that the model achieves good predictive performance in classifying airline passenger satisfaction.
+
 
 ## 10. Presentation and Demonstration
 
