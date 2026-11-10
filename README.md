@@ -9,7 +9,7 @@ A machine learning project that aims to predict airline passenger satisfaction b
 | Syed Ibrahim Affan | ibrahim-affan | Documentation Lead |
 | Naitik | naitik83 | Video Lead |
 | Gunjan | gunjan-iitrpr | PPT Lead |
-| Anubhab Chakraborthy | anubhab-chakraborthy-26-1324 | Execution Lead |
+| Anubhab Chakraborty | anubhab-chakraborty-26-1324 | Execution Lead |
 
 All team members are expected to contribute to the project development and maintain their individual GitHub contributions.
 
@@ -48,6 +48,7 @@ The dataset includes:
 - Passenger satisfaction labels
 
 The `test.csv` file contains 83 missing values, located in `Arrival Delay in Minutes`. It has no duplicate rows.
+The `train.csv` file contains 310 missing values, located in `Arrival Delay in Minutes`. It has no duplicate rows.
 
 The training and testing datasets will be kept separate for model development and evaluation.
 
@@ -127,6 +128,7 @@ Other requisites and their versions are mentioned in the requirements.txt
 
 ### Step 1: Clone the Repository
 
+Open CMD.
 ```bash
 git clone https://github.com/ibrahim-affan/airline-passenger-satisfaction.git
 cd airline-passenger-satisfaction
@@ -143,7 +145,11 @@ pip install -r requirements.txt
 1. Open the src folder inside the airline-passenger-satisfaction folder.
 2. Open the data_visualization.ipynb file.
 3. Execute each and every cell.
-4. 
+4. You will get a detailed Exploratory Data Analysis with a lot of graphs.
+5. Next open the data_preprocessing.ipynb file.
+6. Run each cell of this file. The empty entries in the Arrival Delays have been updated with the median value in both test.csv and train.csv.
+7. Next run model_test_train.ipynb. Execute each and every cell.
+8. Also run each and every cell of performance_analysis.ipynb, which will show you various images, graphs and performance metrics to analyze model performance. 
 **Note:** The exact execution command will be added after finalizing the project code.
 
 ## 9. Model Evaluation and Results
