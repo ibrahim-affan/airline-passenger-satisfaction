@@ -124,33 +124,66 @@ Airline-Passenger-Satisfaction/
 - Jupyter Notebook
 - Git (for cloning the repository)
 - pip (Python package manager)
+- Microsoft VS Code
 Other requisites and their versions are mentioned in the requirements.txt
 
-### Step 1: Clone the Repository
+### Step 1: Go to your preferred folder
 
 Open CMD.
+Go to the folder where you want to clone the repository.
+```bash
+cd path\to\your\folder
+```
+### Step 2: Clone the repository
+
 ```bash
 git clone https://github.com/ibrahim-affan/airline-passenger-satisfaction.git
+```
+
+### Step 3: Enter the cloned repository
+
+```bash
 cd airline-passenger-satisfaction
 ```
 
-### Step 2: Install Dependencies
+### Step 4: Create a python virtual environment
 
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
 ```
 
-### Step 3: Run the Project
+### Step 5: Activating the virtual environment
 
-1. Open the src folder inside the airline-passenger-satisfaction folder.
-2. Open the data_visualization.ipynb file.
-3. Execute each and every cell.
-4. You will get a detailed Exploratory Data Analysis with a lot of graphs.
-5. Next open the data_preprocessing.ipynb file.
-6. Run each cell of this file. The empty entries in the Arrival Delays have been updated with the median value in both test.csv and train.csv.
-7. Next run model_test_train.ipynb. Execute each and every cell.
-8. Also run each and every cell of performance_analysis.ipynb, which will show you various images, graphs and performance metrics to analyze model performance. 
-**Note:** The exact execution command will be added after finalizing the project code.
+```bash
+.venv\Scripts\activate
+```
+
+### Step 6: Installing requirements
+
+```bash
+pip install requirements.txt
+```
+
+### Step 7: Enter the src folder
+
+```bash
+cd src
+```
+
+### Step 8: Open the main.ipynb file in VS Code
+
+```bash
+code main.ipynb
+```
+
+1. Select .venv (3.13.14) as the environment.
+2. Execute each and every cell of the main.ipynb file.
+3. First you will get a detailed Exploratory Data Analysis with a lot of graphs.
+5. Next in the data processing portion, the empty entries in the Arrival Delays have been updated with the median value in both df_train and df_test.
+6. Encoding of data frames has also been done.
+7. The Logistic Regression model is then trained on the training dataset and its predictions on the testing dataset are stored for analysis.
+8. The performance analysis portion shows you various images, graphs and performance metrics to analyze model performance. 
+
 
 ## 9. Model Evaluation and Results
 
@@ -175,7 +208,7 @@ pip install -r requirements.txt
 
 ### Conclusion
 
-The Logistic Regression model achieved an accuracy of 87.16%, demonstrating good performance in predicting airline passenger satisfaction.
+The Logistic Regression model achieved an accuracy of 87.16%, demonstrating good performance in predicting airline passenger satisfaction. Also it has a good F1 Score, suggesting that it balances both precision and recall and it has excellent predictive performance.
 
 
 ## 10. Presentation and Demonstration
