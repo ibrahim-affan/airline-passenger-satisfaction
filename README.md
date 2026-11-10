@@ -92,18 +92,29 @@ The project uses Python and the following libraries and tools:
 | Jupyter Client | 8.9.1 | Jupyter notebook communication |
 | Jupyter Core | 5.9.1 | Jupyter functionality |
 | Traitlets | 5.16.1 | Configuration support |
-## 7. Current Project Structure
+
+
+## 7. Project Structure
 
 ```text
-airline-passenger-satisfaction/
+Airline-Passenger-Satisfaction/
+│
+├── datasets/
+│   ├── test.csv
+│   └── train.csv
+│
+├── src/
+│   ├── data_preprocessing.ipynb
+│   ├── data_visualization.ipynb
+│   ├── model_train_test.ipynb
+│   └── performance_analysis.ipynb
 │
 ├── .gitattributes
 ├── README.md
-├── train.csv
-└── test.csv
+└── requirements.txt
 ```
 
-Additional files for Python source code, notebooks, dependencies, results, presentation, and demonstration video will be added as the project develops.
+
 
 ## 8. Installation and Execution
 
