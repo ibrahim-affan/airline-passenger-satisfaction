@@ -86,7 +86,7 @@ The project uses Python and the following libraries and tools:
 | Scikit-learn | 1.9.1 | Machine learning models and evaluation |
 | Matplotlib | 3.11.2 | Data visualization |
 | Seaborn | 0.13.2 | Statistical data visualization |
-| Joblib | 1.6.0 | Model serialization |
+| ipynb | 0.5.1 | Model serialization |
 | IPython | 9.16.1 | Interactive Python environment |
 | ipykernel | 7.3.0 | Jupyter notebook kernel |
 | Jupyter Client | 8.9.1 | Jupyter notebook communication |
@@ -109,8 +109,10 @@ Additional files for Python source code, notebooks, dependencies, results, prese
 
 ### Prerequisites
 - Python 3.13.14
-- Git
+- Jupyter Notebook
+- Git (for cloning the repository)
 - pip (Python package manager)
+Other requisites and their versions are mentioned in the requirements.txt
 
 ### Step 1: Clone the Repository
 
@@ -127,8 +129,10 @@ pip install -r requirements.txt
 
 ### Step 3: Run the Project
 
-Run the project using the appropriate Python script or Jupyter notebook provided in the repository.
-
+1. Open the src folder inside the airline-passenger-satisfaction folder.
+2. Open the data_visualization.ipynb file.
+3. Execute each and every cell.
+4. 
 **Note:** The exact execution command will be added after finalizing the project code.
 
 ## 9. Model Evaluation and Results
@@ -164,11 +168,8 @@ The Logistic Regression model achieved an accuracy of 87.16%, demonstrating good
 
 ## 11. AI Usage Disclosure
 
-ChatGPT has been used to assist with project planning, understanding documentation requirements, and preparing the initial README structure.
-
-Any AI-assisted code, explanations, or other content used in the final project will be reviewed and verified by the team. Additional AI tools and their uses will be disclosed if applicable.
-
+ChatGPT has been used to assist with project planning, understanding documentation requirements, and preparing the initial README structure. Gemini has been used for making some graphs in the data visualization and prediction analysis. 
 ## 12. Acknowledgement
 
-We acknowledge the Kaggle contributor for providing the Airline Passenger Satisfaction dataset used in this project.
+We acknowledge the Kaggle contributor for providing the Airline Passenger Satisfaction dataset used in this project. We also thank our A.I. faculties at I.I.T. Ropar for providing us guidance in the form of assignments and hands-on sessions.
 
