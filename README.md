@@ -214,7 +214,7 @@ The Logistic Regression model achieved an accuracy of 87.16%, demonstrating good
 ## 10. Presentation and Demonstration
 
 - **Project Presentation:** To be added.
-- **Project Demonstration Video:** To be added.
+- **Project Demonstration Video:** https://drive.google.com/file/d/1rUtORzWiD9h2oddZm1lQS4Fh3n5Sk6gy/view?usp=share_link
 
 ## 11. AI Usage Disclosure
 
