@@ -95,18 +95,23 @@ The project uses Python and the following libraries and tools:
 | Traitlets | 5.16.1 | Configuration support |
 
 
+
 ## 7. Project Structure
 
 ```text
-Airline-Passenger-Satisfaction/
+airline-passenger-satisfaction/
 │
-├── datasets/
-│   ├── test.csv
-│   └── train.csv
+├── presentation/
+│   └── FinalPPT.pptx
 │
 ├── src/
+│   ├── datasets/
+│   │   ├── test.csv
+│   │   └── train.csv
+│   │
 │   ├── data_preprocessing.ipynb
 │   ├── data_visualization.ipynb
+│   ├── main.ipynb
 │   ├── model_train_test.ipynb
 │   └── performance_analysis.ipynb
 │
@@ -114,6 +119,7 @@ Airline-Passenger-Satisfaction/
 ├── README.md
 └── requirements.txt
 ```
+
 
 
 
