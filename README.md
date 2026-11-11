@@ -167,7 +167,7 @@ python -m venv .venv
 ### Step 6: Installing requirements
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Step 7: Enter the src folder
