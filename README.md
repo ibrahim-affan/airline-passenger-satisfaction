@@ -1,6 +1,6 @@
 # Airline Passenger Satisfaction Prediction
 
-A machine learning project that aims to predict airline passenger satisfaction based on passenger demographics, travel details, and in-flight service ratings.
+A machine learning project that aims to predict airline passenger satisfaction "using logistic regression" based on passenger demographics, travel details, and in-flight service ratings.
 
 ## 1. Team Members
 
